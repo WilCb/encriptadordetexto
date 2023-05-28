@@ -1,53 +1,74 @@
 .logoAlura {
     /* Vector */
-    position: relative;
+    position: absolute;
     margin: 40px 0 0 40px;
 }
 .encriptadorTexto {
     margin: 168px 520px 808px 240px;
-    padding: 48px 680px ;
-    border-radius: nullpx;
+    padding: 100px 400px ;
+    border-radius: 20px;
+    border: none;
+    color: blue;
 }
-.breveTexto {
-    margin: 851px 948px 155px 264px;
+.breveTexto {   
+    margin: 851px 948px 50px 264px;
+    display: inline;   
 }
-.botaocriptografar {
-    
+/* botão design */
+.botaoCriptografar {
+    position: absolute;
     background: darkblue;
-    margin: 885px 872px 72px 240px;
-    height: 67px;
+    margin: 0px 872px 72px 240px;
     width: 328px;
-    left: 0px;
-    top: 0px;
     border-radius: 24px;
-    padding: 24px; 
+    padding: 24px;
+    transition: 2s;
 }
-.textoCriptografar {
-    
+.botaoCriptografar:hover {
+    font-size: 20px;
+    transform: scale(1.1);
+}
+.textoCriptografar {   
     text-align: center;
+    font-size: 16px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
 
-.botaodescriptografar {
-    margin: 885px 872px 72px 240px;
-    height: 67px;
+.botaoDescriptografar {
+    position: absolute;
+    margin: 0px 872px 72px 600px;
     width: 328px;
-    left: 352px;
-    top: 0px;
     border-radius: 24px;
     padding: 24px;
     color: blue;
+    cursor: pointer;
+    transition: 2s;
 }
-.botaocriptografar:hover {
-    font-size: 22px;
+.botaoDescriptografar:hover {
+    font-size: 20px;
+    transform: scale(1.1);
 }
-
+.textoDescriptografar {
+    font-size: 16px;
+}
+/* fim botão design */
 /* Rodapé */
-
-.instagram {
-    background: lightgrey;
-    border-radius: 20px;
+footer {
+    margin: 100px 0 0 0;
+}
+.instagramTexto {
+    text-decoration: none;
     font-size: 100%;
     color: red;
+}
+.botaoInstagram {
+    margin: 0 0 60px 300px;
+    background: blue;
+    border-radius: 20px;
+     
+}
+.instagram:hover {
+    font-weight: bold;
 }
